@@ -16,6 +16,7 @@ const HomeAuto = ({ onToggle }) => {
           <span className="slider round"></span>
         </label>
         <a>hihi</a>
+        <a>hâha</a>
       </div>
     )
 } 
