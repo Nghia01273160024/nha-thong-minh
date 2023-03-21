@@ -15,6 +15,7 @@ const HomeAuto = ({ onToggle }) => {
           <input type="checkbox" checked={isRain} onChange={handleToggle} />
           <span className="slider round"></span>
         </label>
+        <a>hihi</a>
       </div>
     )
 } 
