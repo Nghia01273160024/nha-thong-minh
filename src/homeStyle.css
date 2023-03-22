@@ -36,7 +36,6 @@
   left: 4px;
   bottom: 4px;
   background-color: white;
-  transition: .4s;
   border-radius: 50%;
 }
 
@@ -49,9 +48,16 @@ input:checked + .slider:before {
 }
 
 .sunny {
-  background-color: #FFF59D;
+  background-image: url("./sunny_full.jpg");
+  width: 100%;
+  height: 915px;  
 }
 
 .rain {
-  background-color: #B2EBF2;
+  background-image: url("./rain_full.jpg");
+  width: 100%;
+  height: 915px;
+}
+.home-icon{
+  text-align: center;
 }
