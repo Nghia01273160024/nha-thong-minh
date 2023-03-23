@@ -1,10 +1,8 @@
-import './App.css';
-import HomeAuto from './homeAuto';
+import "./App.css";
+import HomeAuto from "./homeAuto";
 
 function App() {
-  return (
-    <HomeAuto onToggle={(isRain) => console.log(`Toggle to ${isRain ? "rainy" : "sunny"}`)}/>
-  );
+  return <HomeAuto />;
 }
 
 export default App;
